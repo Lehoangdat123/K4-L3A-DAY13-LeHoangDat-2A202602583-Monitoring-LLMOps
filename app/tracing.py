@@ -24,6 +24,13 @@ except ImportError:  # pragma: no cover - chỉ dùng khi chưa cài requirement
         def update_current_generation(self, **kwargs: Any) -> None:
             return None
 
+        def start_as_current_observation(self, *args: Any, **kwargs: Any):
+            @contextmanager
+            def _ctx():
+                yield None
+
+            return _ctx()
+
     def get_client():
         return _DummyClient()
 

@@ -1,0 +1,5 @@
+{"service": "api", "payload": {"message_preview": "What is your refund policy? My email is [REDACTED_EMAIL]"}, "event": "request_received", "correlation_id": "req-0dc0ea81", "env": "dev", "session_id": "s01", "model": "mock-llm", "feature": "qa", "user_id_hash": "2055254ee30a", "level": "info", "ts": "2026-09-29T15:14:22.195613Z"}
+{"service": "api", "payload": {"message_preview": "Here is my phone [REDACTED_PHONE_VN], what should be logged?"}, "event": "request_received", "correlation_id": "req-de77abd7", "env": "dev", "session_id": "s05", "model": "mock-llm", "feature": "qa", "user_id_hash": "64f6ec689229", "level": "info", "ts": "2026-09-29T15:14:30.280941Z"}
+{"service": "api", "payload": {"message_preview": "What is the policy for PII and credit card [REDACTED_CREDIT_CARD]?"}, "event": "request_received", "correlation_id": "req-59a50fcf", "env": "dev", "session_id": "s09", "model": "mock-llm", "feature": "qa", "user_id_hash": "4d14d5d4f719", "level": "info", "ts": "2026-09-29T15:14:41.279071Z"}
+
+Result: 0 raw PII leaks detected by validator.

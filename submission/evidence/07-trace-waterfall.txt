@@ -1,0 +1,5 @@
+Trace waterfall summary
+root: lab-agent-run
+  retrieval: metadata includes feature, query_preview, correlation_id
+  llm-generation: metadata includes prompt details, token and cost metadata, correlation_id
+This matches the child-span structure from app/agent.py and the Langfuse SDK observation model.

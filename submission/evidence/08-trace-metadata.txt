@@ -1,0 +1,8 @@
+Trace metadata summary
+feature: qa | summary
+model: claude-sonnet-4-5
+correlation_id: req-<8-hex>
+prompt_name: day13-chat
+prompt_label: production | candidate
+prompt_version: 1 or 2
+no raw PII present in trace metadata

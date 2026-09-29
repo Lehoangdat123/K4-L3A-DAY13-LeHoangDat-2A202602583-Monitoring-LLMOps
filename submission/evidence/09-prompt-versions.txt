@@ -1,0 +1,4 @@
+production version: 1
+candidate version: 2
+production label: production
+candidate label: candidate

@@ -1,0 +1,7 @@
+Trace list evidence
+- project: day13-k4-l3a-2A202602583
+- root observation: lab-agent-run
+- child spans: retrieval, llm-generation
+- trace naming: day13-agent-request
+- validation: created during workload and incident runs
+- observed count: >= 10 request traces across workload runs

@@ -1,0 +1,5 @@
+Incident trace summary
+root trace: day13-agent-request
+affected span: retrieval
+reason: rag_slow triggers a forced delay in the retrieval layer; llm-generation remains normal
+metrics: latency_p95=4493ms, ttft_p95=96ms, tool_success=true

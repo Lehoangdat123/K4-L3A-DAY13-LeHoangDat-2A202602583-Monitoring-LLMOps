@@ -1,0 +1,3 @@
+Dashboard validation output:
+HỢP LỆ: 6/6 panel có trong dashboard contract.
+Panels cover latency, TTFT, error budget, retrieval/tool success, quality, token/cost.
